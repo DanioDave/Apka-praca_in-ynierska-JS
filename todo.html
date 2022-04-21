@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_todo.css">
+    <title>Aplikacja: Lista zadań</title>
+</head>
+<body>
+    <header>
+        <a href="main.html">Powrót</a>
+        <h1>Metamtyczny pomocnik</h1>       
+    </header>
+
+    <div class="container">
+        <header class="header">
+            <h1>Task Tracker</h1>
+            <button id="btn" class="btn">Add</button>
+        </header>
+        <div id="form">
+            <form class="add-form">
+                <div class="form-control">
+                    <label for="">Task</label>
+                    <input id="text" type="text" placeholder="Add Task">
+                </div>
+                <div class="form-control">
+                    <label for="">Day & Time</label>
+                    <input id="day" type="text" placeholder="Add Day & Time">
+                </div>
+                <div class="form-control">
+                    <label for="">Set Reminder</label>
+                    <input id="reminder" type="checkbox">
+                </div>
+                <input type="submit" id="submitBtn" class="btn btn-block" value="Save Task">
+            </form>
+        </div>
+
+        <div id="tasks" class="task">
+
+        </div>
+    </div>
+    
+    <script src="script_todo.js"></script>
+    <footer>
+        <p>Created By Dawid Rozworski 2022</p>
+    </footer>
+</body>
+</html>
